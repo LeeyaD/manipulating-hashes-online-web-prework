@@ -6,7 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.each do |sect, items|
+  groceries.collect do |sect, items|
     sect.values
   end
 
