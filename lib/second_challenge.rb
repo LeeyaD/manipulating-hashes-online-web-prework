@@ -12,6 +12,6 @@ def second_challenge
   end
 
   all_items
-  
+
 
 end
