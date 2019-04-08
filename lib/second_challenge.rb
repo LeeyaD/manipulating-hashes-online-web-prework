@@ -8,7 +8,7 @@ def second_challenge
 
   all_items = []
   groceries.each do |sect, items|
-    all_items << sect.values
+    sect.values
   end
 
   all_items
